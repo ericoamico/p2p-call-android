@@ -51,7 +51,7 @@ jobs:
       - name: Preparar APK
         run: cp app/build/outputs/apk/release/app-release.apk P2PCall.apk
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           name: P2PCall-apk
           path: P2PCall.apk
